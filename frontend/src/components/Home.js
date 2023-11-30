@@ -1,6 +1,7 @@
-import slide01 from '../static/slide01.jpg'
-import slide02 from '../static/slide02.jpg'
-import slide03 from '../static/slide03.jpg'
+import hcdc1 from '../static/hcdc1.jpg'
+import hcdc2 from '../static/hcdc2.jpg'
+import hcdc3 from '../static/hcdc3.png'
+import hcdc4 from '../static/hcdc4.png'
 
 import Carousel from 'react-bootstrap/Carousel';
 
@@ -11,21 +12,28 @@ const Home = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={slide01}
+          src={hcdc1}
           alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={slide03}
+          src={hcdc2}
           alt="Second slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={slide02}
+          src={hcdc3}
+          alt="Third slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={hcdc4}
           alt="Third slide"
         />
       </Carousel.Item>
